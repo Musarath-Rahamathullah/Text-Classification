@@ -9,6 +9,6 @@ Tweets_with_cleaned_hashtag_samsung_classification.csv: datafile.
 
 Tweets_classification : Code for (Tweets)Text Classification.
 
-Templates/ my-form.html : Template for text classification interface.
+Templates/ my-form.html : Template for text classification interface.(should be stored in Templates folder)
 
 example.csv: tweets for testing the classifier.
