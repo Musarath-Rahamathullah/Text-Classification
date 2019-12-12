@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+
+
+h1   {color: black;
+	text-shadow: 2px 2px red;}
+
+body{  background-color : #aed6f1;
+       	background-image: url('https://coindoo.com/wp-content/uploads/2018/07/twitter-1.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 30vh;
+}
+
+</style>
+
+
+</head>
+
+<body>
+   <br> </br>  
+   <br>  </br>
+  <h1 align = 'center'>TWITTER REVIEWS CLASSIFICATION</h1>
+     <br> </br>    
+     <br>  </br> 
+    <h2>Import the text data</h2>
+    <p>Upload a csv file with text data, and the classifier will detect the intent or tag the tweets of twitter.<br>
+    It will classify tweets to tags, Customer Service, Pricing, News, Product, Recommendation.</p>
+    <form action="." method="POST">
+    <label for="fileupload"> Select a file to upload</label>
+    <input type="file" name="fileupload" value="fileupload" id="fileupload"><br>
+	
+<div>   
+ 	<input type="submit" name="my-form" value="Classify Text" > 
+	
+</div>
+    </form>
+
+    <br> </br>
+    <br> </br>
+    {{result | safe}}
+    
+   <!----> 
+</body>
+</html>
